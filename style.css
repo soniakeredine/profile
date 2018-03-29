@@ -1,0 +1,113 @@
+body {
+background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: "Helvetica";
+font-size: 14px;
+color: rgba(0, 31, 51);
+opacity : .7;
+}
+
+h1{
+font-family: "Helvetica";
+color: rgba(0, 153, 255);
+font-size: 28px
+text-align: center;
+}
+
+h2{
+font-family: "Helvetica";
+line-height: 2.5;
+color: rgba(0, 77, 128);
+}
+
+h3{
+font-family: "Helvetica";
+color: rgb(0, 77, 128);
+font-size: 14px ;
+font-weight: 80;
+
+}
+
+a{
+  color: rgba(128, 128, 128);
+  background-color: rgba(250, 10, 10 .8);
+  text-decoration: underline;
+  line-height: 2;
+  padding: 10px 15px;
+  border-radius: 30px ;
+}
+
+a:hover {
+  color: rgba(220, 20, 60);
+}
+
+div.container {
+  width: 500px;
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.img-circle {
+        width: 100px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 100px;
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position:center
+        ;
+    }
+
+.card {
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.7);
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+    text- align: center;
+    }
+
+.btn-blue {
+    background: #F00000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 4px
+    text-align: center;
+  }
+
+.btn-blue:hover {
+  color: rgba(221, 221, 221);
+}
+
+.movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow:
+    text- align: center;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.7);
+}
+
+.table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal;
+    box-shadow: -1px 2px 5px 1px rgba(0, 0, 0, 0.7);
+  }
+
+#movies img {
+    width: 80px;
+}
